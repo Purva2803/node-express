@@ -1,5 +1,9 @@
 const express = require('express'),
      http = require('http');
+const dishRouter = require('./routes/dishRouter');
+
+app.use('/dishes', dishRouter);
+
 
 const hostname = 'localhost';
 const morgan = require('morgan');
