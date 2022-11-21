@@ -19,6 +19,7 @@ const leaderRouter = require('./routers/leaderRouter');
 
 app.use('/dishes', dishRouter);
 app.use('/promotions',promoRouter);
+app.use('/leaderboard',leaderRouter);
 
 
 // app.use((req, res, next) => {
